@@ -1,0 +1,28 @@
+- CONCEPTUAL PROBLEM -
+
+1. NoSQL tau Not Only SQL adalah jenis database yang menangani data yang tidak terstruktur. NoSQL lebih fleksibel dalam menyimpan data dalam berbagai format
+
+2. Kapan Menggunakan NoSQL vs RDBMS:
+
+NoSQL:
+Ketika harus menyimpan data yang tidak memiliki struktur tetap atau sering berubah tau saat data yang akan disimpan sangat besar.
+
+RDBMS:
+Ketika data memiliki struktur tidak berubah-ubah.
+Untuk aplikasi yang menyimpan data yagn sangat penting, seperti sistem keuangan atau manajemen inventaris.
+
+3. Contoh 2 Tools/Platform NoSQL:
+
+MongoDB:
+Keunggulan: MongoDB menggunakan model dokumen dalam format JSON yang fleksibel dan mendukung query serta indeks yang kompleks.
+
+Kibana:
+Alat visualisasi data yang menamilkan macam-macam plot
+
+4. Airflow adalah platform yang digunakan untuk  menjadwalkan, dan memantau alur kerja.
+
+5. Great Expectations:
+Great Expectations adalah alat open-source untuk validasi data dan memverifikasi apakah data memenuhi harapan tersebut.
+
+6. Batch Processing:
+Batch Processing adalah metode pengolahan data di mana data dikumpulkan selama periode waktu tertentu dan kemudian diproses sekaligus. Cocok untuk tugas-tugas seperti pengolahan transaksi harian atau analisis data bulanan.

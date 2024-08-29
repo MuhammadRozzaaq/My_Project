@@ -1,0 +1,33 @@
+CREATE TABLE table_m3 (
+    "Loan_ID" VARCHAR(20),
+    "Gender" VARCHAR(20),
+    "Married" VARCHAR(20),
+    "Dependents" VARCHAR(20),
+    "Education" VARCHAR(50),
+    "Self_Employed" VARCHAR(20),
+    "ApplicantIncome" INT,
+    "CoapplicantIncome" FLOAT,
+    "LoanAmount" FLOAT,
+    "Loan_Amount_Term" INT,
+    "Credit_History" INT,
+    "Property_Area" VARCHAR(50),
+    "Loan_Status" VARCHAR(20)
+);
+
+COPY table_m3 (
+	"Loan_ID", 
+    "Gender",
+    "Married",
+    "Dependents",
+    "Education",
+    "Self_Employed",
+    "ApplicantIncome",
+    "CoapplicantIncome",
+    "LoanAmount",
+    "Loan_Amount_Term",
+    "Credit_History",
+    "Property_Area",
+    "Loan_Status" 
+)
+FROM 'P2M3_Muhammad_Rozzaaq_data_raw.csv'
+DELIMITER ',' csv header
